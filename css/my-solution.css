@@ -37,3 +37,17 @@
 .ex-4-square:hover {
     background: transparent;
 }
+
+/*ex-5*/
+
+.ex-5-square {
+    transition: 3s;
+}
+
+.ex-5-square:hover {
+    scale: 2;
+}
+
+.ex-5-square:active {
+    scale: 0.5;
+}
