@@ -63,3 +63,22 @@
 }
 
 /*ex-7*/
+
+.ex-7-img {
+    transition: 3s;
+}
+
+.ex-7-img:hover {
+    filter: sepia(60%) grayscale(30%)
+}
+
+/*ex-8*/
+
+.ex-8-img {
+    transition: 3s;
+}
+
+.ex-8-img:hover {
+    filter: hue-rotate(90deg) contrast(150%);
+    border-radius: 60px;
+}
