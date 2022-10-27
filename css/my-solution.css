@@ -82,3 +82,17 @@
     filter: hue-rotate(90deg) contrast(150%);
     border-radius: 60px;
 }
+
+/*ex-9*/
+
+.ex-9-img {
+    transition: 3s;
+}
+
+.ex-9-img:hover {
+    filter: drop-shadow(0 0 20px rgb(63, 62, 62)) saturate(2);
+    scale: 1.5;
+    border-radius: 20px;
+}
+
+/*ex-10*/
