@@ -129,3 +129,91 @@
 }
 
 /*ex-12*/
+
+.ex-12-button .ex-12-top-white {
+    animation: left-to-right 3s infinite linear;
+}
+
+@keyframes left-to-right {
+    0% {
+        left: 0;
+      }
+      50% {
+        left: 70%;
+      }
+      100% {
+        left: 0;
+      }
+}
+
+.ex-12-button .ex-12-bottom-white {
+    animation: right-to-left 3s infinite linear;
+}
+
+@keyframes right-to-left {
+    0% {
+        right: 0;
+      }
+      50% {
+        right: 70%;
+      }
+      100% {
+        right: 0;
+      }
+}
+
+/*ex-13*/
+
+.ex-13-button .ex-13-top-white {
+    animation: top-rotation 3s infinite ease-in;
+}
+
+@keyframes top-rotation {
+    0%   {
+        top: -10px; 
+        left: -20%;
+    }
+    25%  {
+        top: -10px; 
+        left: 90%;
+    }
+    50%  {
+        top: 50px; 
+        left: 90%;
+    }
+    75%  {
+        top: 50px; 
+        left: -20%;
+    }
+    100% {
+        top: -10px; 
+        left: -20%;
+    }
+    }
+
+    .ex-13-button .ex-13-bottom-white {
+        animation: bottom-rotation 3s infinite ease-in;
+    }
+    
+    @keyframes bottom-rotation {
+        0%   {
+            bottom: -10px; 
+            right: -20%;
+        }
+        25%  {
+            bottom: -10px; 
+            right: 90%;
+        }
+        50%  {
+            bottom: 50px; 
+            right: 90%;
+        }
+        75%  {
+            bottom: 50px; 
+            right: -20%;
+        }
+        100% {
+            bottom: -10px; 
+            right: -20%;
+        }
+        }
