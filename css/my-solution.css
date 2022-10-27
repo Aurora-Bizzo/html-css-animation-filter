@@ -7,3 +7,16 @@
 .ex-1-square:hover {
     background: red;
 }
+
+/*ex-2*/
+
+.ex-2-square {
+    transition: 3s;
+}
+
+.ex-2-square:active {
+    width: 100%;
+}
+
+/*ex-3*/
+
