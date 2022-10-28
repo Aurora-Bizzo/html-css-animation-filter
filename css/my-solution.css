@@ -130,90 +130,104 @@
 
 /*ex-12*/
 
-.ex-12-button .ex-12-top-white {
+.ex-12-button:hover .ex-12-top-white {
     animation: left-to-right 3s infinite linear;
 }
 
 @keyframes left-to-right {
     0% {
-        left: 0;
+        top: -10px;
+        left: 10%;
       }
       50% {
-        left: 70%;
+        top: -10px;
+        left: 60%;
       }
       100% {
-        left: 0;
+        top:-10px;
+        left: 10%;
       }
 }
 
-.ex-12-button .ex-12-bottom-white {
+.ex-12-button:hover .ex-12-bottom-white {
     animation: right-to-left 3s infinite linear;
 }
 
 @keyframes right-to-left {
     0% {
-        right: 0;
+        bottom: -10px;
+        right: 10%;
       }
       50% {
-        right: 70%;
+        bottom: -10px;
+        right: 60%;
       }
       100% {
-        right: 0;
+        bottom: -10px;
+        right: 10%;
       }
 }
 
 /*ex-13*/
 
-.ex-13-button .ex-13-top-white {
+.ex-13-button:hover .ex-13-top-white {
     animation: top-rotation 3s infinite ease-in;
 }
 
 @keyframes top-rotation {
     0%   {
         top: -10px; 
-        left: -20%;
+        left: 10%;
     }
-    25%  {
+    20%  {
         top: -10px; 
-        left: 90%;
+        left: 95%;
     }
-    50%  {
+    40%  {
         top: 50px; 
-        left: 90%;
+        left: 95%;
     }
-    75%  {
+    60%  {
         top: 50px; 
-        left: -20%;
+        left: -25%;
+    }
+    80% {
+        top: -10px; 
+        left: -25%;
     }
     100% {
         top: -10px; 
-        left: -20%;
+        left: 10%;
     }
     }
 
-    .ex-13-button .ex-13-bottom-white {
+    .ex-13-button:hover .ex-13-bottom-white {
         animation: bottom-rotation 3s infinite ease-in;
     }
     
     @keyframes bottom-rotation {
         0%   {
             bottom: -10px; 
-            right: -20%;
+            right: 10%;
         }
-        25%  {
+        20%  {
             bottom: -10px; 
-            right: 90%;
+            right: 95%;
         }
-        50%  {
+        40%  {
             bottom: 50px; 
-            right: 90%;
+            right: 95%;
         }
-        75%  {
+        60%  {
             bottom: 50px; 
-            right: -20%;
+            right: -25%;
+        }
+        80%  {
+            bottom: -10px; 
+            right: -25%;
         }
         100% {
             bottom: -10px; 
-            right: -20%;
+            right: 10%;
         }
         }
